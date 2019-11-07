@@ -12,6 +12,7 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
+        "howler": "^2.1.2",
         "pixi.js": "^5.1.5",
         "src": "^1.1.2"
     },
