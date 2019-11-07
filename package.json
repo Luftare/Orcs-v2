@@ -13,6 +13,7 @@
     "license": "ISC",
     "dependencies": {
         "howler": "^2.1.2",
+        "lodash": "^4.17.15",
         "pixi.js": "^5.1.5",
         "src": "^1.1.2"
     },
