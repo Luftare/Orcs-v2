@@ -13,7 +13,7 @@ document.body.appendChild(app.view)
 
 app.loader
     .add('player', 'assets/player.png')
-    .add('orc', 'assets/orc1.png')
+    .add('orc', 'assets/orcs.json')
     .add('bullet', 'assets/projectile.png')
     .load((loader, resources) => {
 
@@ -37,7 +37,7 @@ app.loader
         setInterval(() => {
             let orc = new Orc(resources, app, orcs)
             orc.spawn()
-            console.log("Orc spawned")
+            //console.log("Orc spawned")
         }, 1000)
 
         // Listen for frame updates
@@ -80,7 +80,7 @@ app.loader
                 }
                 orcs[o].age++
             }
-
+            //remove dead orcs
             let newOrcList = []
             orcs.forEach((orc) => {
                 if (orc.alive) {

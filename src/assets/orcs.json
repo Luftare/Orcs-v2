@@ -1,0 +1,39 @@
+{"frames": {
+
+"orc1.png":
+{
+	"frame": {"x":0,"y":0,"w":756,"h":756},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":756,"h":756},
+	"sourceSize": {"w":756,"h":756}
+},
+"orc2.png":
+{
+	"frame": {"x":756,"y":0,"w":756,"h":756},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":756,"h":756},
+	"sourceSize": {"w":756,"h":756}
+},
+"orc3.png":
+{
+	"frame": {"x":0,"y":756,"w":756,"h":756},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":756,"h":756},
+	"sourceSize": {"w":756,"h":756}
+}},
+"animations": {
+	"orc": ["orc1.png","orc2.png","orc3.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "orcs.png",
+	"format": "RGBA8888",
+	"size": {"w":1512,"h":1512},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:8041f19aaa5804794315a14f9eb16dfd:835d3bc9a405e83b36604c6085df962a:005ea1d75d5eb29a004da920fc8a6615$"
+}
+}
